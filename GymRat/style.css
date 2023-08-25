@@ -1,0 +1,341 @@
+* { 
+    margin: 0;
+padding: 0; 
+}
+/* Hero Css */
+.hero-container{
+    max-width: 100%;
+    background-image:url(assets/img/header-bg.jpg);
+    background-size:cover;
+    overflow: hidden;
+    max-width:100vw;
+    height:550px;
+}
+.heading-paragraph{
+    position: relative;
+    color: white;
+    margin-left: 10%;
+    text-transform: uppercase;
+}
+.heading-paragraph h1{
+    font-size: 50px;
+    font-weight: bold;
+    max-width: 35%;
+}
+.btn-join{
+   background-color: red;
+   color: white;
+   border-radius: 10px;
+   padding: 15px 35px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 15px;
+   font-weight: bold;
+   cursor: pointer;
+}
+/* End Hero Css */
+
+/* Classes Css */
+.pclass-header{
+    margin: 30px 30px;
+    margin-left: 10%;
+}
+.pclass-container{
+    position: relative;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pclass-card{
+    height: 260px;
+    width: 250px;
+    background-color: grey;
+    border-radius: 10px;
+    opacity: 0.8;
+    cursor: pointer;
+    margin: 20px;
+
+}
+.pclass-title{
+    text-align: center;
+    margin-top: 12px;
+    color: white;
+    font-weight: 500;
+}
+.pclass-image img{
+    width: 100%;
+}
+.pclass-card:hover{
+    opacity: 1;
+    transform: translate(0px, -8px);
+}
+
+
+.btn-class{
+    position: absolute;
+    background-color:red;
+   color: white;
+   text-align: center;
+   font-size: 15px;
+   padding: 10px 25px;
+   border: none;
+   border-radius: 5px;
+   margin-top: 10px;
+   margin-left: 45%;
+   text-transform: uppercase;
+   font-family: 'Inter';
+font-style: normal;
+}
+/* End Classes Css */
+
+/* About Css */
+.about-container{
+    background-color: black;
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+.left{
+    position: absolute;
+    width: 50%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.right{
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    width: 50%;
+}
+.about-details{
+    max-width: 75%;
+    color: white;
+}
+.about{
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+}
+.btn-about{
+    background-color:red;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight:bold;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 7px;
+    margin-top: 10px;
+    position: absolute;
+}
+/* End About Css */
+
+/* Review Css */
+.review-container{
+    background: black;
+    color: white;
+}
+/* End Review Css */
+
+
+/* Contact Css */
+.contact-container{
+    width: 100%;
+    background-image: url(assets/img/contact1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+}
+.contact-text,.btn-signup{
+    margin-left: 10%;
+}
+.contact-text{
+    position: absolute;
+    max-width: 30%;
+    color: white;
+    font-size: 30px;
+    font-weight:900;
+    margin-top: 10%;
+}
+.btn-signup{
+    background-color:red;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight:bold;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 7px;
+    position: absolute;
+    margin-top: 20%;
+}
+
+
+/* End Contact Css */
+
+/* Footer Css */
+.footer{
+    color: white;
+    position: relative;
+    padding: 40px 10vw;
+    width: 100%;
+    background: #000;
+}
+.footer-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.footer-ul-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.footer-link:hover{
+    color: white;
+}
+.info-footer{
+    display: grid;
+    list-style:circle;
+}
+.social-links{
+    list-style: none;
+}
+.social-links>li{
+    display: inline-block;
+    margin: 3px 3px;
+}
+.fa {
+    padding: 10px;
+    font-size: 25px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-instagram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.bolderfont{
+    font-size: 20px;
+}
+/* End Footer Css */
+
+/* Css Suren */
+body{
+    background-color: black;
+}
+.heading{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: bold;
+    font-size: larger;
+    }
+.image-set {
+        text-align: center;
+    }
+    
+.btn-appoint{
+        position: left;
+        background-color:red;
+       color: white;
+       text-align: center;
+       font-size: 15px;
+       padding: 10px 25px;
+       border: none;
+       border-radius: 5px;
+    font-style: normal;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    }
+
+.class-header{
+    color: white;
+    text-decoration: double;
+    text-align: center;
+    margin: 30px 30px;
+    margin-left: 10%;
+    background-color: black;
+}
+.class-container{
+    background-color: black;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.class-section{
+    background-color: #000;
+    overflow: hidden;
+}
+.class-card{
+    height: 270px;
+    width: 290px;
+    background-color: grey;
+    border-radius: 30px;
+    opacity: 0.8;
+    cursor: pointer;
+    margin-left: 10%;
+    margin: 20px;
+}
+.class-title{
+    text-align: center;
+    margin-top: 12px;
+    color: white;
+    font-weight: 500;
+}
+.class-image img{
+    width: 100%;
+}
+.class-card:hover{
+    opacity: 1;
+    transform: translate(0px, -8px);
+}
+
+
+.btn-subs{
+    position: absolute;
+    background-color:red;
+   color: white;
+   text-align: center;
+   font-size: 15px;
+   padding: 10px 25px;
+   border: none;
+   border-radius: 5px;
+   margin-top: 10px;
+   margin-left: 45%;
+   text-transform: uppercase;
+   font-family: 'Inter';
+font-style: normal;
+cursor: pointer;
+}
+.get-question{
+    color:white;
+    text-align: center;
+    background-color: #000;
+}

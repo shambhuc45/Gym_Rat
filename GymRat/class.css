@@ -1,0 +1,62 @@
+
+.class-section{
+    background-color: black;
+}
+.class-header{
+    color: white;
+    text-decoration: double;
+    text-align: center;
+    margin: 30px 30px;
+    margin-left: 10%;
+}
+.class-container{
+    position: relative;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.class-card{
+    height: 270px;
+    width: 250px;
+    background-color: grey;
+    border-radius: 30px;
+    opacity: 0.8;
+    cursor: pointer;
+    margin: 30px;;
+
+}
+.class-title{
+    text-align: center;
+    margin-top: 12px;
+    color: white;
+    font-weight: 500;
+}
+.class-image img{
+    width: 100%;
+}
+.class-card:hover{
+    opacity: 1;
+    transform: translate(0px, -8px);
+}
+
+
+.oneplus{
+    position: absolute;
+    background-color:red;
+   color: white;
+   text-align: center;
+   font-size: 15px;
+   padding: 10px 25px;
+   border: none;
+   border-radius: 5px;
+   margin-top: 10px;
+   margin-left: 45%;
+   text-transform: uppercase;
+   font-family: 'Inter';
+font-style: normal;
+}
+.question{
+    color:black;
+    text-align: center;
+}

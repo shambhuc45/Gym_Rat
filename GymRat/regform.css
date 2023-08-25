@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:wght@200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins','sans-serif';
+}
+body{
+        /* background-color:#9BA3EB ; */
+        background:  linear-gradient(135deg,#71b7e6,#9b59b6);
+       
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+}
+.container{
+    background-color: #fff;
+    width: 700px;
+    padding: 25px 30px;
+    border-radius: 5px;
+
+}
+.form-title{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+.login-info{
+    width: calc(100% / 2 - 20px);
+    font-weight: 500;
+    margin-bottom: 15px;
+    
+}
+.login-info label{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.login-info input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-bottom-width: 2px;
+    padding-left: 15px;
+    font-size: 16px;
+}
+.login-info input:focus{
+    border-color: #9B59B6;
+}
+.gender-title{
+    
+    font-size: 20px ;
+    font-weight: 500 ;
+    
+}
+.gender-details .radio{
+    display: flex;
+    width: 80%;
+    margin: 14px 0;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 400;
+}
+.gender-details input{
+    margin-right: 5px;
+}
+
+.button{
+    height: 45px;
+    margin: 45px 0;
+
+}
+
+.button input{
+    height: 100%;
+    width: 25%;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 1px;
+    border-color: #9B59B6;
+    cursor: pointer;
+
+}
+

@@ -1,0 +1,43 @@
+.membership{
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    margin-left: 10%;
+}
+.topic{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-display: bold;
+
+}
+.lines{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-display: bold;
+}
+.get-question{
+    color:black;
+    text-align: center;
+}
+
+.bottonn{
+    position: absolute;
+    background-color:red;
+   color: white;
+   text-align: center;
+   font-size: 15px;
+   padding: 10px 25px;
+   border: none;
+   border-radius: 5px;
+   margin-top: 10px;
+   margin-left: 35%;
+   text-transform: uppercase;
+   font-family: 'Inter';
+font-style: normal;
+}
+.romeo{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+
+}
