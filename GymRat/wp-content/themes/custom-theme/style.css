@@ -1,0 +1,544 @@
+* { 
+    margin: 0;
+padding: 0; 
+font-family: 'Times New Roman', Times, serif;
+}
+/* Hero Css */
+.hero-container{
+    max-width: 100%;
+    background-image:url(assets/img/bg.jpg);
+    background-size:cover;
+    max-width:100vw;
+    height: 630px;
+    overflow: hidden;
+    margin: 0;
+}
+.row>.heading-paragraph{
+    margin-top: 10%;
+}
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+    opacity: 0.4;
+}
+.heading-paragraph{
+    position: relative;
+    color: white;
+    margin-left: 10%;
+    text-transform: uppercase;
+    margin-top: 10%;
+}
+.heading-paragraph h1{
+    font-size: 50px;
+    font-weight: 400;
+    max-width: 35%;
+}
+.btn-join{
+   background-color: red;
+   color: white;
+   border-radius: 10px;
+   padding: 15px 35px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 15px;
+   font-weight: bold;
+   cursor: pointer;
+}
+/* End Hero Css */
+
+/* Classes Css */
+.class-header{
+    margin: 30px 30px;
+    margin-left: 10%;
+}
+.class-container{
+    position: relative;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.class-card{
+    height: 300px;
+    width: 250px;
+    background-color: grey;
+    border-radius: 10px;
+    opacity: 0.8;
+    cursor: pointer;
+    margin: 20px;
+}
+.class-title{
+    text-align: center;
+    margin-top: 11px;
+    color: white;
+}
+.class-image img{
+    width: 100%;
+    height: 210px;
+}
+.class-card:hover{
+    opacity: 1;
+    transform: translate(0px, -8px);
+}
+
+
+.btn-class,.oneplus{
+    position: absolute;
+    background-color:red;
+   color: white;
+   text-align: center;
+   font-size: 15px;
+   padding: 10px 25px;
+   border: none;
+   border-radius: 5px;
+   margin-top: 10px;
+   margin-left: 40%;
+   text-transform: uppercase;
+   font-family: 'Inter';
+font-style: normal;
+}
+.btn-train{
+    position: absolute;
+    background-color:red;
+   color: white;
+   text-align: center;
+   font-size: 15px;
+   padding: 10px 25px;
+   border: none;
+   border-radius: 5px;
+   margin-top: 10px;
+   text-transform: uppercase;
+   font-family: 'Inter';
+font-style: normal;
+}
+/* End Classes Css */
+
+/* About Css */
+.about-container{
+    background-color: black;
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+.left{
+    position: absolute;
+    width: 50%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.right{
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    width: 50%;
+}
+.about-details{
+    max-width: 75%;
+    color: white;
+}
+.about{
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+}
+.btn-about{
+    background-color:red;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight:bold;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 7px;
+    margin-top: 10px;
+    position: absolute;
+}
+.question{
+    text-align: center;
+}
+/* End About Css */
+
+/* Review Css */
+.review-container{
+    background: black;
+    color: white;
+}
+/* End Review Css */
+
+
+/* Contact Css */
+.contact-container{
+    width: 100%;
+    background-image: url(assets/img/contact1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: relative;
+}
+.contact-text,.btn-signup{
+    margin-left: 10%;
+}
+.contact-text{
+    position: absolute;
+    max-width: 30%;
+    color: white;
+    font-size: 30px;
+    font-weight:900;
+    margin-top: 10%;
+}
+.btn-signup{
+    background-color:red;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight:bold;
+    padding: 10px 25px;
+    border-radius: 7px;
+    position: absolute;
+    margin-top: 22%;
+}
+
+
+/* End Contact Css */
+
+/* Footer Css */
+.footer{
+    color: white;
+    position: relative;
+    padding: 40px 10vw;
+    width: 100%;
+    background: #000;
+}
+.footer-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.footer-ul-container{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-link:hover{
+    color: white;
+}
+.info-footer{
+    display: grid;
+    list-style:circle;
+}
+.social-links{
+    list-style: none;
+}
+.social-links>li{
+    display: inline-block;
+    margin: 3px 3px;
+}
+.fa {
+    padding: 10px;
+    font-size: 25px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-instagram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+/* End Footer Css */
+
+
+
+/* CSS for WordPress */
+body,
+html {
+    margin: 0;
+    padding: 0px;
+}
+ul{
+    list-style: none;
+}
+.my-nav{
+    display: flex;
+    margin-right:100px;
+}
+.my-nav>li{
+    margin-top: 8%;
+    position: relative;
+}
+.my-nav li a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+    font-weight: bold;
+    font-size: 20px;
+}
+.my-nav li a:hover{
+    opacity: 1;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+.nav-container-main{
+    width: 100%;
+    background-color: black;
+}
+.nav-container{
+    display: flex;
+    justify-content:space-between;
+    margin :0 auto;
+    flex-wrap: wrap;
+}
+.logo-section{
+    height: 85px;
+    width: 85px;
+}
+.logo-section>a>img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    margin-left: 45px;
+}
+.max-width{
+    width: 100%;
+}
+
+/* Sub MEnu css */
+.sub-menu{
+    position: absolute;
+    top: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+.sub-menu li, .users-wp-menu li{
+    text-decoration: none;
+}
+.my-nav>li:hover .sub-menu{
+    opacity: 1;
+    visibility: visible;
+}
+.sub-menu:hover .users-wp-menu{
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Four-0-Four Css */
+.four-0-four-image{
+    display: block;
+    margin: 60px auto;
+    width: 500px;
+    height: 350px;
+    margin-top: -3%;
+}
+.four-0-four-msg{
+    text-align: center;
+    text-transform: capitalize;
+    color: #383838;
+}
+.four-0-four-msg a{
+    color: #383838;
+    font-size: 20px;
+}
+.four-0-four-content{
+    background-color: rgb(155, 219, 219);
+    margin-top: 40px;
+}
+
+
+/* Member css */  
+
+.membership{
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    margin-left: 10%;
+}
+.topic{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-display: bold;
+
+}
+.lines{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-display: bold;
+}
+
+
+/* Footer */
+.company-title>h1{
+    margin-left: 40%;
+}
+.hgt-wid-logo{
+    height: 150px;
+    width: 150px;
+    margin-left: 20px;
+
+}
+.footer-container{
+    position: relative;
+    background-color:black ;
+    overflow: hidden;
+}
+.category, .social-links{
+    margin-top: 5%;
+}
+.nav-item{
+    color: #fff;
+}
+.footer-item{
+    color: #fff;
+}
+/* CSS for giving underline to nav bar while they are active*/
+
+.my-nav .current-menu-item a, .current-page-item a{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+/* post Section */
+.post-information{
+    margin-top: 15px;
+    display: flex;
+    border-bottom: 2px solid #f6f6f6;
+    padding-bottom: 15px;
+}
+.post-image-section{
+    width: 25%;
+    padding-right: 15px;
+}
+.post-image-container{
+    height: 300px;
+    width: 300px;
+}
+.post-image-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-left: 50px;
+}
+.title{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.post-content-info{
+    width: 75%;
+    padding-left: 15px;
+    margin-left: 15px;
+}
+.align-right{
+    text-align: right;
+}
+.line-clamp{
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.author-name,.post-date{
+    color: white;
+}
+.page-navi{
+    color: #fff;
+}
+.single-post-info{
+    margin-left: 8%;
+    color: white;
+}
+.comment-form label{
+    display: block;
+}
+.comment-form{
+    padding: 20px;
+}
+.spost-title{
+   margin-left: 25%;
+    font-size: 25px;
+}
+.media-body{
+    color: black;
+}
+/* End */
+.mb-4{
+    color: white;
+}
+.page-title{
+    color: white;
+    text-align: center !important;
+    font-size: 25px;
+
+}
+.about-us{
+    text-align: center;
+}
+
+/* Responsive Css */
+.custom-hamburger-menu{
+    display: none;
+}
+.nav-container-main{
+    width: 100%;
+
+}
+.padding-16{
+    padding:0 16px;
+}
+.nav-container{
+    display:flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:900px){
+    .title a{
+        color: red;
+        /* display: none !important; */
+    }
+    .post-information{
+        flex-direction: column;
+    }
+    .custom-hamburger-menu{
+        display: block;
+        height: 25px;
+        width: 25px;
+        margin: auto 0;
+    }
+    .navbar-items{
+        width: 100%;
+        display: none;
+    }
+    .my-nav{
+        flex-direction: column;
+    }
+    .max-width{
+        width: unset;
+    }
+}
+/* End */
